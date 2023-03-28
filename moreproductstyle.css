@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    
+}
+.firstScreen{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+}
+.fsinfo{
+
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.fsnavigator{
+
+    width: 70vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fsnavigator img{
+    height: 15vh;
+    width: 7vw;
+}
+.fsbutton{
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fsbutton a{
+    font-size: 15pt;
+    color: black;
+    text-decoration: none;
+}
+.fsbutton img{
+
+    width: 1.6vw;
+    height: 1.6vw;
+}
+.latestproduct{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latestproduct h1{
+    margin: 20px 10px;
+    font-size: 30pt;
+    color: rgb(87, 87, 87);
+}
+.latestproduct hr{
+    width: 15vw;
+
+}
+.cardplace{
+    width: 70vw;
+    height: 40vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.cardplace2{
+    width: 70vw;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 16vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 1px 1px 10px black;
+}
+.card img{
+    width: 16vw;
+    height: 30vh;
+    border-radius: 20px;
+    
+}
+
+.card h2{
+    color: #353535;
+    font-size: 1vw;
+    margin-left: 0.4vw;
+}
+.card h4{
+    color: #000000;
+    font-size: 0.8vw;
+    margin-left: 0.4vw
+}
+.card h3{
+    color: #353535;
+    font-size: 0.8vw;
+    margin-left: 0.4vw
+}
+.card:hover{
+    transform:scale(1.1);
+}
+
+.price{
+    width: 10vw;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+}
+.price h5{
+    color: #ff3636;
+    font-size: 0.8vw;
+    margin-left: 0.4vw
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    .firstScreen{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .fsinfo{
+    
+        width: 90vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .fsnavigator{
+    
+        width: 90vw;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fsnavigator img{
+        height: 30vh;
+        width: 25vw;
+    }
+    .fsbutton{
+        height: 20vh;
+        width: 60vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .fsbutton a{
+        font-size: 5vw;
+        color: black;
+        text-decoration: none;
+    }
+    .fsbutton img{
+    
+        width: 1.6vw;
+        height: 1.6vw;
+    }
+    .fsinfo img{
+        width: 30vw;
+        height: 30vw;
+    }
+    .fsinfotext{
+        width: 30vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+    .fsittitle{
+        font-size: 9vw;
+        font-weight: 400;
+    }
+    .fsitinfo{
+        font-size: 4vw;
+        font-weight: 400;
+    }
+    .fsitbutton{
+        margin-top: 40px;
+        width: 30vw;
+        height: 5vh;
+        background-color: rgb(161, 114, 114);
+        border-radius: 10px;
+        font-size: 15pt;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .fsitbutton a{
+        padding: 10px;
+        align-items: center;
+        font-size: 3vw;
+        color: rgb(255, 223, 223);
+        text-decoration: none;
+        font-weight: 800;
+        transition: 0.3s;
+        transform: 0.3s;
+    }
+    
+    .fsitbutton:hover{
+        background-color: rgb(255, 223, 223);
+    }
+    .fsitbutton a:hover{
+        color: rgb(161, 114, 114);
+    }
+    
+    /*----------------------------------------------------------------------------*/
+    
+    .product{
+        background-color: white;
+        width: 100vw;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    
+    }
+    .featuredproduct{
+    
+        width: 90vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .featuredproduct h1{
+        margin: 20px 10px;
+        font-size: 30pt;
+        color: rgb(87, 87, 87);
+    }
+    .featuredproduct hr{
+        width: 15vw;
+        background-color: #FFD7D7;
+    }
+    .latestproduct{
+        width: 90vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .latestproduct h1{
+        margin: 20px 10px;
+        font-size: 30pt;
+        color: rgb(87, 87, 87);
+    }
+    .latestproduct hr{
+        width: 15vw;
+        background-color: #FFD7D7;
+    }
+    .cardplace{
+        width: 100vw;
+        height: 40vh;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cardplace2{
+        width: 100vw;
+        height: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    
+    /*-----------------------------------------------------------------*/
+    .aboutus{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color:#FFD7D7;
+    }
+    .aboutus h1{
+        font-size: 16vw;
+        font-weight: 400;
+        color: #000000;
+    }
+    .aboutus h2{
+        font-size: 8vw;
+        font-weight: 800;
+        color: #000000;
+    }
+    .aboutus h3{
+        font-size: 4vw;
+        margin-left: 45vw;
+    }
+    .cr{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .cr hr{
+        width: 90vw;
+    }
+    .card{
+        width: 80vw;
+        height: 20vh;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        box-shadow: 1px 1px 10px black;
+    }
+    .card img{
+        width: 40vw;
+        height: 20vh;
+        border-radius: 20px;
+        
+    }
+    
+    .card h2{
+        color: #353535;
+        font-size: 6vw;
+        margin-left: 0.4vw;
+    }
+    .card h4{
+        color: #000000;
+        font-size: 3vw;
+        margin-left: 0.4vw
+    }
+    .card h3{
+        color: #353535;
+        font-size: 4vw;
+        margin-left: 0.4vw
+    }
+    .price h5{
+        color: #ff3636;
+        font-size: 4vw;
+        margin-left: 0.4vw
+    }
+    .moreproduct {
+        width: 30vw;
+        height: 5vh;
+        background-color:rgb(161, 114, 114);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .moreproducta{
+        font-size: 4vw;
+        font-weight: 800;
+        color: white;
+        text-decoration: none;
+        margin: 50px 10px;
+    }
+}
